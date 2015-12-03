@@ -418,9 +418,9 @@ public class AdministratorGUI extends javax.swing.JFrame {
          try {
                 // create our mysql database connection
                 //String myDriver = "com.mysql.jdbc.Driver";
-                String myUrl = "jdbc:mysql://73.9.90.158:3306/csci467";
-                String username = "naraku9333";
-                String password = "Sean9333";
+                String myUrl = "jdbc:mysql://*******************/csci467";
+                String username = "********";
+                String password = "*********";
                 //Class.forName(myDriver);
                 Connection conn = DriverManager.getConnection(myUrl, username, password);
 
