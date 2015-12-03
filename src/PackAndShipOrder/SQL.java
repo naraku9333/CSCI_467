@@ -22,11 +22,11 @@ public class SQL {
     private static Connection getSystemConnection() throws SQLException {
         /* set user id and password on server */
         Properties props = new Properties();
-        props.put("user", "naraku9333");
-        props.put("password", "Sean9333");
+        props.put("user", "********");
+        props.put("password", "********");
         
         //if(internal.isClosed()) {
-        return DriverManager.getConnection("jdbc:mysql://73.9.90.158/csci467", props);
+        return DriverManager.getConnection("jdbc:mysql://*********/csci467", props);
     }
     
     public static ResultSet executeSystemSQLQuery(String query) throws SQLException {
