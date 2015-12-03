@@ -65,10 +65,10 @@ public class Current extends JFrame{
             /* Insert if not exist Logic */
             
             Properties props = new Properties();
-            props.put("user", "naraku9333");
-            props.put("password", "Sean9333");
+            props.put("user", "**********");
+            props.put("password", "*********");
 
-            Connection connection = DriverManager.getConnection("jdbc:mysql://73.9.90.158:3306/csci467", props);
+            Connection connection = DriverManager.getConnection("jdbc:mysql://************/csci467", props);
             Statement statement;
             statement= connection.createStatement();
             
